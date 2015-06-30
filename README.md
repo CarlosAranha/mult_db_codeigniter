@@ -22,8 +22,8 @@ Para que o framework podece acessar estes arquivos foi modificado o core/ do fra
 ### system/core/Config.php
 Foram efetuadas as seguintes edições. 
 
-* adicionado-> public $_config_paths1 = array(CONFPATH);
-* 111 - Substituir -> foreach ($this->_config_paths as $path) por foreach ($this->_config_paths1 as $path)
+* adicionado-> var $_my_config_paths = array(CONFPATH);
+* 111 - Substituir -> foreach ($this->_config_paths as $path) por foreach ($this->_my_config_paths as $path)
 
 
 ### system/core/Common.php
